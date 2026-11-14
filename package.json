@@ -1,0 +1,25 @@
+{
+  "name": "uchicago-msa",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@12.9.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/aref-ruqaa": "latest",
+    "@fontsource/dm-sans": "latest",
+    "@fontsource/instrument-serif": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}

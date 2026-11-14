@@ -23,7 +23,7 @@ export default function Home() {
               <a className="button button-primary" href="#resources">Find your community <Arrow /></a>
               <a className="text-link" href="#community">Get to know us <span aria-hidden="true">↓</span></a>
             </div>
-            <div className="hero-location"><span className="location-dot" /> HYDE PARK, CHICAGO <span className="location-divider" /> ALL ARE WELCOME</div>
+            <div className="hero-location"><span className="location-dot" /> ALL ARE WELCOME</div>
           </div>
           <div className="hero-art">
             <div className="art-corner art-corner-top" aria-hidden="true"><Ornament /></div>
@@ -38,7 +38,6 @@ export default function Home() {
             <div className="art-corner art-corner-bottom" aria-hidden="true"><Ornament /></div>
             <div className="art-translation"><span /> AHLAN WA SAHLAN <span /></div>
             <p className="art-welcome">You are welcome here.</p>
-            <span className="art-edition" aria-hidden="true">41.7886° N &nbsp; 87.5987° W</span>
           </div>
         </section>
 

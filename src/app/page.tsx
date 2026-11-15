@@ -1,5 +1,5 @@
 import { Header } from "@/components/header";
-import { Arrow, Ornament } from "@/components/ornament";
+import { Arrow, Asterisk, Ornament } from "@/components/ornament";
 import { communityLinks, resources } from "@/lib/community";
 
 const pillars = [
@@ -16,14 +16,13 @@ export default function Home() {
       <main id="main">
         <section className="hero container" id="home" aria-labelledby="hero-title">
           <div className="hero-copy">
-            <p className="eyebrow hero-eyebrow"><span className="little-star">✳</span> MUSLIM STUDENTS ASSOCIATION</p>
+            <p className="eyebrow hero-eyebrow"><Asterisk className="little-star" /> MUSLIM STUDENTS ASSOCIATION</p>
             <h1 id="hero-title">Rooted in faith.<br />Connected by<br /><em>community.</em></h1>
             <p className="hero-description">Your home away from home at UChicago.<br className="desktop-break" /> A place to find your people, grow in faith,<br className="desktop-break" /> and make a little room for belonging.</p>
             <div className="hero-actions">
               <a className="button button-primary" href="#resources">Find your community <Arrow /></a>
               <a className="text-link" href="#community">Get to know us <span aria-hidden="true">↓</span></a>
             </div>
-            <div className="hero-location"><span className="location-dot" /> ALL ARE WELCOME</div>
           </div>
           <div className="hero-art">
             <div className="art-corner art-corner-top" aria-hidden="true"><Ornament /></div>
@@ -84,7 +83,7 @@ export default function Home() {
                 </article>
               ))}
             </div>
-            <div className="life-note"><span className="little-star">✳</span><p>Looking for our next gathering? <a href={communityLinks.calendar} target="_blank" rel="noopener noreferrer">Explore the MSA events calendar <Arrow diagonal /></a></p></div>
+            <div className="life-note"><Asterisk className="little-star" /><p>Looking for our next gathering? <a href={communityLinks.calendar} target="_blank" rel="noopener noreferrer">Explore the MSA events calendar <Arrow diagonal /></a></p></div>
           </div>
         </section>
 

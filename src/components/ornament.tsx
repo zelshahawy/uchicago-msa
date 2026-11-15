@@ -8,6 +8,14 @@ export function Ornament({ className = "" }: { className?: string }) {
   );
 }
 
+export function Asterisk({ className = "" }: { className?: string }) {
+  return (
+    <svg className={className} width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M12 2v20M2 12h20M5 5l14 14M5 19 19 5" stroke="currentColor" strokeWidth="1.4" />
+    </svg>
+  );
+}
+
 export function Arrow({ diagonal = false, className = "" }: { diagonal?: boolean; className?: string }) {
   return (
     <svg className={className} width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
